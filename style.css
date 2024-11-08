@@ -1,0 +1,10 @@
+nav {
+    background-color: rgb(80, 96, 113);
+    display: flex;
+    justify-content: space-evenly;
+}
+nav > a {
+    border: 1px white;
+    text-decoration: none;
+    color: white;
+}
