@@ -41,15 +41,16 @@ header {
     justify-content: space-around;
     max-width: 25%;
     margin-bottom: 2em;
-    padding-left: 25%;
-    padding-right: 25%
+    margin-left: 15%;
+    margin-right: 25%;
 }
 
 .headline-txt {
     display: flex;
     flex-direction: column;
-    padding-right: 2em;
-    padding-left: 2em;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: lightgrey;
 }
 
 .button-green {
@@ -64,3 +65,18 @@ header {
     background-color: red;
 }
 
+.column {
+    display: flex;
+    max-width: 25%;
+    margin-bottom: 2em;
+    margin-left: 15%;
+    margin-right: 25%;
+}
+
+.column-txt {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: lightgrey;
+}
